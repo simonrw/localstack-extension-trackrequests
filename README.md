@@ -5,6 +5,8 @@ Extension to record AWS requests in LocalStack
 
 See https://github.com/localstack/localstack-extensions/issues/3
 
+To see the requests and responses made, make a `GET` request to `http://localhost.localstack.cloud:4566/stats`.
+
 ## Install local development version
 
 To install the extension into localstack in developer mode, you will need Python 3.10, and create a virtual environment in the extensions project.
