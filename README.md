@@ -1,7 +1,9 @@
 trackrequests
 ===============================
 
-Record AWS requests
+Extension to record AWS requests in LocalStack
+
+See https://github.com/localstack/localstack-extensions/issues/3
 
 ## Install local development version
 
