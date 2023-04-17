@@ -10,7 +10,8 @@ class Encoder(json.JSONEncoder):
     def default(self, o):
         if isinstance(o, datetime):
             return o.isoformat()
-        return super().default(o)
+        else:
+            return repr(o)
 
 
 class MyExtension(Extension):
